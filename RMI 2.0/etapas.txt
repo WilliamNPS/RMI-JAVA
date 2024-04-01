@@ -1,0 +1,17 @@
+//  Passo 1 - Definir a interface remota 
+
+//  Passo 2 - Definir a implementação da interface remota 
+              // Estender UnicastRemoteObjtect
+              // Criar construtor
+              // Implementar métodos (todos devem lançar a remoteException)
+
+//  Passo 3 - Criar um servidor 
+              // Criar uma instância de registory
+              // Vincular(rebind) a implementação da intaface no registory usando Naming
+//  Passo 4 - Criar Cliente 
+              // Procurar pelo objeto remotono registry e devolver o stub
+              // Executar o método remoto 
+
+//  Compilar o servidor na linha de comando e rodar   javac *.java
+//  Rodar o servidor  java Server 
+//  java client         

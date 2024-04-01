@@ -1,0 +1,14 @@
+
+
+Imagine que você tem dois computadores, um em Nova York e outro em Londres. Agora, em cada computador, você tem programas 
+Java diferentes que precisam se comunicar e trabalhar juntos.
+
+A RMI (Remote Method Invocation) é como uma ponte que conecta esses dois programas Java em computadores diferentes.
+Ela permite que um programa Java em Nova York invoque métodos (ou seja, realize ações) em um programa Java em Londres, 
+como se estivessem no mesmo computador. 
+
+Então, mesmo que os programas estejam em máquinas diferentes e possam estar até em partes do mundo diferentes,
+a RMI faz com que a chamada de método remoto (de um programa para o outro) pareça uma chamada de método local 
+(dentro do mesmo programa) para o programador que está escrevendo o código. Isso simplifica muito o desenvolvimento
+de aplicativos distribuídos em Java, pois o programador não precisa se preocupar tanto com os detalhes da comunicação 
+entre os programas em máquinas diferentes.
